@@ -5,9 +5,9 @@ resources:
       - deploy-ecs-basic
     integration: deepika-docker
     pointer:
-      sourceName: "ankul/nginx"
+      sourceName: "shippabledocker/pipelinev2"
     seed:
-      versionName: prod.10
+      versionName: "deploy.1"
 
   - name: deploy-ecs-basic-params
     type: params
