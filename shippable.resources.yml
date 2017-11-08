@@ -3,7 +3,7 @@ resources:
     type: image
     flags:
       - deploy-ecs-basic
-    integration: dr-aws-keys
+    integration: deepika-docker
     pointer:
       sourceName: "679404489841.dkr.ecr.us-east-1.amazonaws.com/deploy-ecs-basic"
     seed:
@@ -38,7 +38,7 @@ resources:
     type: cluster
     flags:
       - deploy-ecs-basic
-    integration: dr-aws
+    integration: deepika-aws
     pointer:
-      sourceName : "deploy-ecs-basic" #name of the cluster to which we are deploying
-      region: "us-east-1"
+      sourceName : "deploy-ecs-basic-shippable" #name of the cluster to which we are deploying
+      region: "us-east-2"
