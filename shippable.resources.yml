@@ -5,9 +5,9 @@ resources:
       - deploy-ecs-basic
     integration: deepika-docker
     pointer:
-      sourceName: "679404489841.dkr.ecr.us-east-1.amazonaws.com/deploy-ecs-basic"
+      sourceName: "ankul/nginx"
     seed:
-      versionName: "latest"
+      versionName: prod.10
 
   - name: deploy-ecs-basic-params
     type: params
