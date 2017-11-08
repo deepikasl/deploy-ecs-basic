@@ -24,4 +24,4 @@ jobs:
       - IN: deploy-ecs-basic-manifest
       - IN: deploy-ecs-basic-ecs-cluster
       - TASK: managed
-        deployMethod: replace
+        #deployMethod: replace
