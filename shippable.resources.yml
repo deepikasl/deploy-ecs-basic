@@ -23,7 +23,7 @@ resources:
     flags:
       - deploy-ecs-basic
     version:
-      memory: 100
+      memoryReservation: 100
       portMappings:
         - 80:80
 
